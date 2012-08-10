@@ -7,3 +7,51 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/vimwiki"]
+	path = bundle/vimwiki
+	url = https://github.com/vim-scripts/vimwiki.git
+[submodule "bundle/SpellChecker"]
+	path = bundle/SpellChecker
+	url = https://github.com/vim-scripts/SpellChecker.git
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = http://github.com/tpope/vim-unimpaired
+[submodule "bundle/zencoding"]
+	path = bundle/zencoding
+	url = http://github.com/mattn/zencoding-vim.git
+[submodule "bundle/LanguageTool"]
+	path = bundle/LanguageTool
+	url = https://github.com/vim-scripts/LanguageTool.git
+[submodule "bundle/haskellmode"]
+	path = bundle/haskellmode
+	url = https://github.com/lukerandall/haskellmode-vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = http://github.com/msanders/snipmate.vim
+[submodule "bundle/OmniCppComplete"]
+	path = bundle/OmniCppComplete
+	url = https://github.com/vim-scripts/OmniCppComplete.git
+[submodule "bundle/ledger"]
+	path = bundle/ledger
+	url = https://github.com/cypok/vim-ledger.git
+[submodule "bundle/vimfaq"]
+	path = bundle/vimfaq
+	url = https://github.com/chrisbra/vim_faq.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/table"]
+	path = bundle/table
+	url = https://github.com/vim-scripts/table.vim.git
+[submodule "bundle/tex9"]
+	path = bundle/tex9
+	url = https://github.com/vim-scripts/TeX-9.git
