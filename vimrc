@@ -1,3 +1,4 @@
+runtime bundles/tplugin_vim/macros/tplugin.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -58,3 +59,13 @@ map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 let g:Imap_UsePlaceHolders = 0
 set nocp
 ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
+let g:deplatePrg = "deplate -x -X "
+au FileType viki compiler deplate
+
+autocmd BufRead,BufNewFile $HOME/vimwiki/* set filetype=viki
+let g:vikiHomePage='~/private/viki/index.viki'
+
+map <C-t><C-t> :VikiTasks!<CR>
+map <C-t><C-a> :VikiTasksAlarms<CR>
+map <C-t><C-h> :VikiHome<CR>
+
